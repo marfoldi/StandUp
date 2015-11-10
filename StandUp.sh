@@ -1,5 +1,7 @@
 #!/bin/bash
 while :
 do
-	sleep 20m
+  echo 'WAKE UP, NEO...'
+  mplayer bells.mp3 > /dev/null 2>&1
+  sleep 20m
 done
